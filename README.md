@@ -23,7 +23,12 @@ A strategy in which (i) d adjacent districts (d >= 2) are unified; (ii) a spanni
 
 In this experiment, I ran GerryChain for 10,000 iterations (as suggested by members of [MGGG](https://mggg.org)) on some county-level and tract-level instances. Further, I considered a population deviation of 1% and a minority population threshold of t=30%. Dual graphs and shapefiles are borrowed from [Daryl DeFord's website](https://people.csail.mit.edu/ddeford/dual_graphs.html) and [Eugene Lykhovyd's website](https://lykhovyd.com/files/public/districting), respectively.
 
-Finally, I found the [Pareto Frontier](https://en.wikipedia.org/wiki/Pareto_efficiency) that represents the "best" plans with respect to number of cut edges and number of majority-minority districts.  
+Finally, I found the [Pareto Frontier](https://en.wikipedia.org/wiki/Pareto_efficiency) that represents the "best" plans with respect to number of cut edges and number of majority-minority districts. 
+
+![Figure 1](heur_MS_county_pareto.png?raw=true "heur_MS_county_pareto")
+![Figure 2](heur_MS_tract_pareto.png?raw=true "heur_MS_tract_pareto")
+
+
 
 
 
