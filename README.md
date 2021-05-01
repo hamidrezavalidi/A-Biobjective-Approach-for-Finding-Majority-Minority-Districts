@@ -1,6 +1,6 @@
 # A biobjective approach for finding majority-minority districts
 
-Section 2 of the Voting Rights Act enacts creating majority-minority districts to provide minority groups with opportunities to elect representatives of their choice. However, a majority-minority district is created if at least the following conditions (“Gingles prongs'') are satisfied: (i) compactness and numerosity (say more than 50% of the citizen voting-age population), (ii) political cohesion, and (iii) sufficiency of white majority vote to defeat the preferred candidate of minorities.  Furthermore, if the first condition is not satisfied, then there is no requirement on creating a majority-minority district. Although the second and third Gingles prongs are qualitative measures, the first prong can be captured by mathematical models and algorithms.
+Section 2 of the Voting Rights Act enacts creating majority-minority districts to provide minority groups with opportunities to elect representatives of their choice. However, a majority-minority district is created if at least the following conditions (“Gingles prongs'') are satisfied: (i) compactness and numerosity (say more than t% of the citizen voting-age population), (ii) political cohesion, and (iii) sufficiency of white majority vote to defeat the preferred candidate of minorities.  Furthermore, if the first condition is not satisfied, then there is no requirement on creating a majority-minority district. Although the second and third Gingles prongs are qualitative measures, the first prong can be captured by mathematical models and algorithms.
 
 Gingle prongs are not the only criteria that should be respected. There are three more basic rules that must be considered in evaluation of districting plans:
 
@@ -20,4 +20,10 @@ A strategy in which a node on the boundary of a district is assigned to an adjac
 
 ### 2. Recommbination.
 A strategy in which (i) d adjacent districts (d >= 2) are unified; (ii) a spanning tree is built on the unified nodes; and (iii) d-1 edges of the spanning trre are removed to creat $d$ new districts. 
+
+In this experiment, I ran GerryChain for 10,000 iterations (as suggested by members of [MGGG](https://mggg.org)) on some county-level and tract-level instances. Further, I considered a population deviation of 1% and a minority population threshold of t=30%. Dual graphs and shapefiles are borrowed from [Daryl DeFord's website](https://people.csail.mit.edu/ddeford/dual_graphs.html) and [Eugene Lykhovyd's website](https://lykhovyd.com/files/public/districting), respectively.
+
+Finally, I found the [Pareto Frontier](https://en.wikipedia.org/wiki/Pareto_efficiency) that represents the "best" plans with respect to number of cut edges and number of majority-minority districts.  
+
+
 
