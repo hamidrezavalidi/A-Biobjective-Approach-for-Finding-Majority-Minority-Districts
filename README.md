@@ -19,5 +19,5 @@ One might be interested in finding the maximum number of majority-minority distr
 A strategy in which a node on the boundary of a district is assigned to an adjacent district.
 
 ### 2. Recommbination.
-A strategy in which (i) $d$ adjacent districts ($d \ge 2$) are unified; (ii) a spanning tree is built on the unified nodes; and (iii) $d-1$ edges of the spanning trre are removed to creat $d$ new districts. 
+A strategy in which (i) d adjacent districts (d >= 2) are unified; (ii) a spanning tree is built on the unified nodes; and (iii) d-1 edges of the spanning trre are removed to creat $d$ new districts. 
 
