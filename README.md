@@ -25,8 +25,7 @@ In this experiment, I ran GerryChain for 10,000 iterations (as suggested by memb
 
 Finally, I found the [Pareto Frontier](https://en.wikipedia.org/wiki/Pareto_efficiency) that represents the "best" plans with respect to number of cut edges and number of majority-minority districts. 
 
-![Figure 1](heur_MS_county_pareto.png?raw=true "heur_MS_county_pareto")
-![Figure 2](heur_MS_tract_pareto.png?raw=true "heur_MS_tract_pareto")
+![Figure 1](heur_MS_county_pareto.png?raw=true "heur_MS_county_pareto")![Figure 2](heur_MS_tract_pareto.png?raw=true "heur_MS_tract_pareto")
 
 
 
