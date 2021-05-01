@@ -5,7 +5,7 @@ Section 2 of the Voting Rights Act enacts creating majority-minority districts t
 Gingle prongs are not the only criteria that should be respected. There are three more basic rules that must be considered in evaluation of districting plans:
 
 ## Population balance.
-Districts must have roughly equal populations (ideal population) to reflect “one person-one vote” concept. By Section 2 of Article I of the U.S. Constitution and Karcher v. Dagget case, any variation from the ideal population must be justified by a legitimate goal; e.g., creating compact districts;
+Districts must have roughly equal populations (ideal population) to reflect "one person-one vote" concept. By Section 2 of Article I of the U.S. Constitution and Karcher v. Dagget case, any variation from the ideal population must be justified by a legitimate goal; e.g., creating compact districts;
 ## Contiguity. 
 A district is contiguous if one can move between any two points of the district without leaving it; and
 ## Compactness. 
