@@ -28,6 +28,6 @@ Finally, I found the [Pareto Frontier](https://en.wikipedia.org/wiki/Pareto_effi
 ![Figure 1](heur_MS_county_pareto.png?raw=true "heur_MS_county_pareto")![Figure 2](heur_MS_tract_pareto.png?raw=true "heur_MS_tract_pareto")
 
 
-The following figures
+The following figure (left) show "the" pareto districting plan with 2 majority-minority districts and 70 cut edges for Mississippi at the tract level. In the right figure, gray tracts belong to minority districts.
 
 ![Figure 1](heur_MS_tract_0.png?raw=true "heur_MS_county_pareto")![Figure 2](heur_MS_tract_0_minority.png?raw=true "heur_MS_tract_pareto")
