@@ -13,7 +13,7 @@ One of the important districting principles that the Supreme Court considers to 
 
 ## How to create compact majority-minority districts?
 
-One might be interested in finding the maximum number of majority-minority districts such that the base rules of districting (i.e., population balance, contiguity, and compactness) are respected. Although I am a big fan of Mixed Integer Programming approaches to solve this biobjective optimization problem, I prefer to use [GerryChain](https://gerrychain.readthedocs.io/en/latest/) for simplicity purposes. [GerryChain](https://gerrychain.readthedocs.io/en/latest/) employs [Markov chain Monte Carlo (MCMC)](https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo) for creating feasible maps. GerryChain uses two main strategies to move from a feasible solution to another one:
+One might be interested in finding the maximum number of majority-minority districts such that the base rules of districting (i.e., population balance, contiguity, and compactness) are respected. Although I am a big fan of Mixed Integer Programming approaches to solve this biobjective optimization problem, I prefer to use [GerryChain](https://gerrychain.readthedocs.io/en/latest/) for simplicity purposes. [GerryChain](https://gerrychain.readthedocs.io/en/latest/) employs [Markov chain Monte Carlo (MCMC)](https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo) for creating feasible maps. It employs two main strategies to move from a feasible solution to another one:
 
 #### 1. Flip.
 A strategy in which a node on the boundary of a district is assigned to an adjacent district.
