@@ -30,4 +30,4 @@ After creating 10,000 districting plans, I found the [Pareto Frontier](https://e
 
 Further, the following figure (left) show "the" pareto districting plan with two majority-minority districts and 70 cut edges for Mississippi at the tract level. In the right figure, gray tracts belong to majority-minority districts (green and purple districts on the left).
 
-![Figure 1](heur_MS_tract_0.png?raw=true "heur_MS_county_pareto")![Figure 2](heur_MS_tract_0_minority.png?raw=true "heur_MS_tract_pareto")
+![Figure 1](heur_MS_tract_0.png?raw=true "heur_MS_county_pareto")! [Figure 2](heur_MS_tract_0_minority.png?raw=true "heur_MS_tract_pareto")
